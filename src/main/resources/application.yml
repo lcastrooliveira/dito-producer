@@ -1,3 +1,10 @@
+spring:
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+    deserialization:
+      ADJUST_DATES_TO_CONTEXT_TIME_ZONE: false
 kafka:
   bootstrapAddress: ${KAFKA_ADVERTISED_ADDRESS}
+
 
