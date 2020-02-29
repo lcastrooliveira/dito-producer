@@ -48,6 +48,7 @@ Usado para buscar as informações de eventos cadastradas (autocomplete). Parâm
 ### Referências
 
 * [Dito Consumer - API que consome os dados grava no ES](https://github.com/lcastrooliveira/dito-consumer) 
+* [Dito Core - Biblioteca Auxiliar com DTO (Conteúdo complementar)](https://github.com/lcastrooliveira/dito-core)
 * [Intro to Apache Kafka with Spring](https://www.baeldung.com/spring-kafka)
 * [Intro to Apache Kafka with Spring](https://www.baeldung.com/spring-kafka)
 * [Introduction to Spring Data Elasticsearch](https://www.baeldung.com/spring-data-elasticsearch-tutorial)
