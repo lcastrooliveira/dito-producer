@@ -29,7 +29,7 @@ Usado para endpoint utilizado para publicar um evento. Exemplo de evento:
 	"revenue": 123.89
 }
 ```
-E na API consumidora de eventos:
+E na API [consumidora](https://github.com/lcastrooliveira/dito-consumer) de eventos:
 
     GET /api/v1/eventsapi/v1/events?eventName=<searchTerm>&page=<pageIndex>&size=<pageSize>
 
@@ -47,6 +47,7 @@ Usado para buscar as informações de eventos cadastradas (autocomplete). Parâm
 
 ### Referências
 
+* [Dito Consumer - API que consome os dados grava no ES](https://github.com/lcastrooliveira/dito-consumer) 
 * [Intro to Apache Kafka with Spring](https://www.baeldung.com/spring-kafka)
 * [Intro to Apache Kafka with Spring](https://www.baeldung.com/spring-kafka)
 * [Introduction to Spring Data Elasticsearch](https://www.baeldung.com/spring-data-elasticsearch-tutorial)
