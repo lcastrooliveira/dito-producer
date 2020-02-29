@@ -5,7 +5,7 @@ Este repositório contém a API responsável por publicar os eventos em um broke
 
 ## Design da Solução
 
-![Arch](https://imgur.com/LuT4eRx)
+![Arch](https://i.imgur.com/LuT4eRx.png)
 
    
 Em que:
