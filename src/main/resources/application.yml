@@ -5,6 +5,6 @@ spring:
     deserialization:
       ADJUST_DATES_TO_CONTEXT_TIME_ZONE: false
 kafka:
-  bootstrapAddress: ${KAFKA_ADVERTISED_ADDRESS}
+  bootstrapAddress: ${KAFKA_ADVERTISED_HOST_NAME:kafka}
 
 
