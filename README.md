@@ -14,6 +14,30 @@ Em que:
 2. Uma outra API consome estas informações e grava em cluster Elasticsearch. Esta API consumidora também fornece 
 um endpoint para buscar os registros filtrados por tipo de evento
 
+## Endpoints
+
+Na API coletora de eventos:
+
+    POST /api/v1/events
+
+Usado para endpoint utilizado para publicar um evento. Exemplo de evento:
+
+```json
+{
+	"event": "buy",
+	"timestamp": "2023-09-22T13:57:31.2311892-03:00",
+	"revenue": 123.89
+}
+```
+E na API consumidora de eventos:
+
+    GET /api/v1/eventsapi/v1/events?eventName=<searchTerm>&page=<pageIndex>&size=<pageSize>
+
+Usado para buscar as informações de eventos cadastradas (autocomplete). Parâmetros:
+1. eventName (obrigatório): termo de busca para o campo `event`. Mínimo 2 caracteres.
+2. Page (opcional): Número da página, caso não fornecido assume-se valor 0.
+3. Size (opcional): Tamanho da página, caso não fornecido assume-se valor 20.
+
 ## Tecnologias utilizadas:
 
 * Java 8 com Spring Boot 2
